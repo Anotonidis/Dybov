@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./bootstrap-grid.min.css">
+      <link rel="stylesheet" href="css/slick.css">
+      <link rel="stylesheet" href="css/style.min.css">
+      <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon">
+      <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
+      <script type="text/javascript" >
+         (function(m,e,t,r,i,k,a){m[i]=m[i]function(){(m[i].a=m[i].a[]).push(arguments)};
+         m[i].l=1*new Date();
+         for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+         k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+      
+         ym(90727462, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+         });
+      </script>
+      <title>Покупателям</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="container">
+            <header>
+               <nav class="nav__buyer">
+                  <a href="/" class="logo">
+                  <img src="./images/logo.svg" alt="logo">
+                  </a>
+                  <ul class="header__list">
+                     <li class="header__list-item">
+                        <a class="header__list-link" href="catalog.html">Каталог</a>
+                     </li>
+                     <li class="header__list-item">
+                        <a class="header__list-link" href="/">О нас</a>
+                     </li>
+                     <li class="header__list-item">
+                        <a class="header__list-link" href="#bye">Как купить</a>
+                     </li>
+                     <li class="header__list-item">
+                        <a class="header__list-link" href="#">Покупателям</a>
+                     </li>
+                     <!-- <li class="header__list-item">
+                        <a class="header__list-link" href="workshop.html">Столярная мастерская</a>
+                     </li> -->
+                  </ul>
+                  <div class="header__burger">
+                     <span></span>
+                  </div>
+               </nav>
+            </header>
+            <div class="menu__wrapper">
+               <div class="menu__limiter">
+                  <ul class="menu">
+                     <li class="menu-item activity" id="payment">
+                        <label class="buy__label" for="tab-btn-1">Оплата и доставка</label>
+                     </li>
+                     <li class="menu-item" id="exchange">
+                        <label class="buy__label" for="tab-btn-2">Возврат и обмен</label>
+                     </li>
+                     <li class="menu-item" id="guarantees">
+                        <label class="buy__label" for="tab-btn-3">Гарантии</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="buyers__tabs">
+               <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+               <label class="buy__label" for="tab-btn-1">Оплата и доставка</label>
+               <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+               <label class="buy__label" for="tab-btn-2">Возврат и обмен</label>
+               <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+               <label class="buy__label" for="tab-btn-3">Гарантии</label>
+               <div class="text" id="content-1">
+                  <div class="buyer__image-1">
+                     <h4>Оплата и <br> доставка</h4>
+                  </div>
+                  <p>Оплата по безналичному расчету на основании выставленного счета.</p>
+                  <p>Счет отправляется Вам на почту после согласования заказа.</p>
+                  <p>Доставка осуществляется транспортной компанией “Деловые линии” и оплачивается отдельно.<br>
+                     Стоимость доставки рассчитывается индивидуально исходя из габаритов изделия и города.
+                  </p>
+                  <p><b>Доставка осуществляется при условии 100% оплаты заказа.</b></p>
+               </div>
+               <div class="text" id="content-2">
+                  <div class="buyer__image-2">
+                     <h4>Возврат и <br> обмен</h4>
+                  </div>
+                  <p>Если вам доставили не то изделие или вы обнаружили брак, то возврат производится бесплатно.</p>
+                  <p>Если товар не подошел вам по каким-либо характеристикам, то вы имеете право вернуть товар надлежащего качества или обменять его в течение 14 дней. В этом случае обратная доставка будет платной.</p>
+               </div>
+               <div class="text" id="content-3">
+                  <div class="buyer__image-3">
+                     <h4>Гарантии</h4>
+                  </div>
+                  <p>Гарантийный срок изделия составляет 12 месяцев со дня приобретения товара (если покупка изделия произошла в разные дни с его доставкой, гарантийный срок начинает действовать в день доставки). </p>
+                  <p>Гарантия не распространяется на случаи, когда:</p>
+                  <ul>
+                     <li>изделие пострадало от пожара;</li>
+                     <li>дефект образовался по вине покупателя;</li>
+                     <li>проблемы, возникшие вследствие износа изделия;</li>
+                     <li>истечение срока гарантии</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="order" id="bye">
+            
+               <div class="order__inner">
+                  <h3>Хотите заказать изделие?</h3>
+                  <p>Просто напишите нам в <a href="https://t.me/+79879332602" class="socials__item-link"> <span>Telegram</span></a> или <a href="https://wa.me/79879332602" class="socials__item-link"> <span>WhatsApp</span></a></p>
+                  
+                     <a href="tel:+79879332602" class="telephone" >+7 987 933 26 02</a>
+                     <a href="mailto:dybovinfo@yandex.ru"> <span class="mail-underline">dybovinfo@yandex.ru</span> </a>
+                  <!-- </div> -->
+               </div>
+            </div>
+            </div>
+         </main>
+         <div class="container">
+            <footer class="footer">
+                  <p>© <script type="text/javascript">document.write(new Date().getFullYear());</script> Дыбов</p>
+                  <a href="https://vk.cc/cihXJE" class="vk"><img src="./images/vk.svg" alt=""></a>
+            </footer>
+         </div>
+      </div>
+      <script src="js/main.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script>
+         const payment = document.getElementById('payment');
+         const paymentexchange = document.getElementById('exchange');
+         const guarantees = document.getElementById('guarantees');
+         
+         payment.addEventListener('click', function(){
+            payment.classList.add('activity');
+            exchange.classList.remove('activity');
+            guarantees.classList.remove('activity');
+         });
+         
+         exchange.addEventListener('click', function(){
+            exchange.classList.add('activity');
+            payment.classList.remove('activity');
+            guarantees.classList.remove('activity');
+         });
+         
+         guarantees.addEventListener('click', function(){
+            guarantees.classList.add('activity');
+            payment.classList.remove('activity');
+            exchange.classList.remove('activity');
+         });
+         
+      </script>
+      <noscript><div><img src="https://mc.yandex.ru/watch/90727462" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+   </body>
+</html>
